@@ -2,7 +2,7 @@
 /**
  * factorial - this func calculate factorial
  *@n : the number that calculate factorial for it
- * Return : factoral if n >0 
+ * Return : factoral if n >0
  */
 int factorial(int n)
 {
@@ -13,5 +13,5 @@ int factorial(int n)
 	if (n == 0)
 		return (1);
 
-	return (n*factorial(n-1));
+	return (n * factorial(n-1));
 }
